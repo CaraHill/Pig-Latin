@@ -5,7 +5,7 @@ describe('Pig Latin', () => {
     expect(translator.translate('apple')).toEqual('appleay');
   });
 
-  xtest('translates a word beginning with e', () => {
+  test('translates a word beginning with e', () => {
     expect(translator.translate('ear')).toEqual('earay');
   });
 
