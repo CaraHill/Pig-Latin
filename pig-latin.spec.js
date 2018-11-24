@@ -1,4 +1,4 @@
-import translator from './pig-latin';
+import { translator } from './pig-latin';
 
 describe('Pig Latin', () => {
   test('translates a word beginning with a', () => {
