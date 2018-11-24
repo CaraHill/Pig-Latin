@@ -9,7 +9,7 @@ describe('Pig Latin', () => {
     expect(translator.translate('ear')).toEqual('earay');
   });
 
-  xtest('translates a word beginning with p', () => {
+  test('translates a word beginning with p', () => {
     expect(translator.translate('pig')).toEqual('igpay');
   });
 
